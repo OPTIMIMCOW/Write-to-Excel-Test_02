@@ -1,0 +1,8 @@
+C:\Users\kallan\source\repos\Write to Excel Test_02\Write to Excel Test_02\obj\Debug\Write to Excel Test_02.csprojAssemblyReference.cache
+C:\Users\kallan\source\repos\Write to Excel Test_02\Write to Excel Test_02\obj\Debug\Write to Excel Test_02.csproj.CoreCompileInputs.cache
+C:\Users\kallan\source\repos\Write to Excel Test_02\Write to Excel Test_02\bin\Debug\Write to Excel Test_02.exe.config
+C:\Users\kallan\source\repos\Write to Excel Test_02\Write to Excel Test_02\bin\Debug\Write to Excel Test_02.exe
+C:\Users\kallan\source\repos\Write to Excel Test_02\Write to Excel Test_02\bin\Debug\Write to Excel Test_02.pdb
+C:\Users\kallan\source\repos\Write to Excel Test_02\Write to Excel Test_02\obj\Debug\Write to Excel Test_02.exe
+C:\Users\kallan\source\repos\Write to Excel Test_02\Write to Excel Test_02\obj\Debug\Write to Excel Test_02.pdb
+C:\Users\kallan\source\repos\Write to Excel Test_02\Write to Excel Test_02\obj\Debug\Write to Excel Test_02.csproj.ResolveComReference.cache
