@@ -23,24 +23,30 @@ namespace Write_to_Excel_Test_02
                 oXL.Visible = false;
 
                 //Get a new workbook.
-                oWB = (Microsoft.Office.Interop.Excel._Workbook)(oXL.Workbooks.Add(@"C:\Users\kallan\OneDrive - Thornton Tomasetti, Inc-\RnD\Carbon Calculator\Research\Programming\GH Excel Interface\Visual Studio\Example2.xlsx"));
+                oWB = (Microsoft.Office.Interop.Excel._Workbook)(oXL.Workbooks.Add(@"C:\Users\kallan\OneDrive - Thornton Tomasetti, Inc-\RnD\Carbon Calculator\Research\Programming\GH Excel Interface\Visual Studio\Example3.xlsx"));
                 oSheet = (Microsoft.Office.Interop.Excel._Worksheet)oWB.ActiveSheet;
 
                 //Add table headers going cell by cell.
-                oSheet.Cells[3, 2] = 8;
+                oSheet.Cells[3, 2] = 3;
 
 
                 // get value of a specific cell in the spredsheet
-                var cellValue = (int)(oSheet.Cells[3, 6] as Microsoft.Office.Interop.Excel.Range).Value;
+                var VlookupCellValue = (String)(oSheet.Cells[3, 6] as Microsoft.Office.Interop.Excel.Range).Value;
    
-                Console.Write(cellValue);
+                Console.Write(VlookupCellValue);
+                Console.ReadLine();
+
+                // get value of a specific cell in the spredsheet
+                var matchCellValue = (String)(oSheet.Cells[3, 4] as Microsoft.Office.Interop.Excel.Range).Value;
+
+                Console.Write(matchCellValue);
                 Console.ReadLine();
 
 
 
                 oXL.Visible = false;
                 oXL.UserControl = false;
-                oWB.SaveAs(@"C:\Users\kallan\OneDrive - Thornton Tomasetti, Inc-\RnD\Carbon Calculator\Research\Programming\GH Excel Interface\Visual Studio\Example2_alter.xlsx", Microsoft.Office.Interop.Excel.XlFileFormat.xlWorkbookDefault, Type.Missing, Type.Missing,
+                oWB.SaveAs(@"C:\Users\kallan\OneDrive - Thornton Tomasetti, Inc-\RnD\Carbon Calculator\Research\Programming\GH Excel Interface\Visual Studio\Example3_alter.xlsx", Microsoft.Office.Interop.Excel.XlFileFormat.xlWorkbookDefault, Type.Missing, Type.Missing,
                     false, false, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlNoChange,
                     Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing);
 
